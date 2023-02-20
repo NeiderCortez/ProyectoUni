@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(43, 42, 42);
+}
+
+
+h1{
+    
+text-align: center;
+font-size: 60px;
+margin-top: 20px;
+
+
+margin-left: 20px;
+margin-right: 20px;
+
+
+
+color: #dba149;
+    border: 3px solid rgb(255, 255, 255);
+    border-left: 100px;
+   border-right:  70px;
+   padding: 43px;
+   padding-left: 10px;
+}
+
+
+
+    
+ul.tabs li{
+   
+    
+   
+    display: flex;
+    
+}
+#navegacion1{
+    width: 1000px;
+    max-width: 90%;
+    margin: 30px auto;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid rgb(255, 255, 255) ;
+
+}
+
+ul.tabs {
+    width: 100%;
+    
+    display:  flex;
+}
+ul.tabs li{
+    width: 80%;
+
+}
+
+ul.tabs li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    
+
+    display: block;
+    padding: 30px ;
+}
+ul.tabs li a:hover{
+    color: #dba149;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+ul.tabs li a tab-text{
+    margin-left: 8px;
+}
+
+ul.submenu{
+    position:absolute;
+    margin-top: 109px;
+    display: none;
+    width: 30%;
+    background-color: #1d1d1d8a;
+    border-radius: 7px;
+    border: 3px solid rgb(255, 255, 255) ;
+    
+}
+
+ul.tabs li:hover .submenu{
+display: block;
+
+}
+h2{
+    color:rgb(255, 255, 255);
+}
+option{
+    background-color: #1d1d1d8a;;
+}
+
+ul.submenu{
+    position:absolute;
+    margin-top: 109px;
+    display: none;
+    width: 30%;
+    background-color: #1d1d1d8a;
+    border-radius: 7px;
+    border: 3px solid rgb(255, 255, 255) ;
+    
+}
+
+ul.tabs li:hover .submenu{
+display: block;
+
+}
+#tab4{
+    position:absolute;
+  
+    background-color: #1d1d1d8a;
+    border-radius: 7px;
+    border: 3px solid rgb(255, 255, 255) ;
+}
+
+#tab5{
+    
+    position:absolute;
+    margin-top: 200px;
+    width: 30%;
+    background-color: #1d1d1d8a;
+    border-radius: 7px;
+    border: 3px solid rgb(255, 255, 255) ;
+}
